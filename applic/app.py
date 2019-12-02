@@ -8,5 +8,3 @@ app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY')
 def hello_world():
     return 'Привіт дев!!!'
 
-if __name__ == '__main__':
-    app.run()
